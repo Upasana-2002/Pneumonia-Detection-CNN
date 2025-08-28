@@ -69,8 +69,3 @@ Extend classification to Bacterial vs Viral Pneumonia.
  
 Deploy the model as a web application where users can upload X-rays.
  
-Monitored accuracy and loss curves during training.
-
-Evaluated on test data and visualized a confusion matrix.
-
-Tested model predictions on sample chest X-ray images.
