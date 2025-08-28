@@ -31,30 +31,35 @@ Used chest X-ray dataset containing images of Normal and Pneumonia cases.
 Split data into training, validation, and test sets.
 
 ## 2. Preprocessing
-. Resized all images to the same dimension.
-. Normalized pixel values (0–255 → 0–1).
+Resized all images to the same dimension.
+
+Normalized pixel values (0–255 → 0–1).
 
 ## 3. Applied data augmentation (rotation, zoom, horizontal flip) to reduce overfitting.
-. Model Architecture
-. Built a CNN with convolution, pooling, dropout, and dense layers.
-. Trained using Adam optimizer and binary crossentropy loss.
-. Evaluation
+ Model Architecture
+ 
+ Built a CNN with convolution, pooling, dropout, and dense layers.
+ 
+ Trained using Adam optimizer and binary crossentropy loss.
+ 
+ Evaluation
 
 ## Results
 
-. Achieved around 90% test accuracy.
-. Model is able to correctly identify most pneumonia cases.
+Achieved around 90% test accuracy.
+
+Model is able to correctly identify most pneumonia cases.
 
 Example:
- . Normal X-ray → Predicted Normal (97% confidence)
- . Pneumonia X-ray → Predicted Pneumonia (89% confidence)
+  Normal X-ray → Predicted Normal (97% confidence)
+  Pneumonia X-ray → Predicted Pneumonia (89% confidence)
 
 ## Future Work
 
-. Experiment with transfer learning models (VGG16, ResNet50) to improve accuracy.
-. Extend classification to Bacterial vs Viral Pneumonia.
-. Deploy the model as a web application where users can upload X-rays.
-. Monitored accuracy and loss curves during training.
+ Experiment with transfer learning models (VGG16, ResNet50) to improve accuracy.
+ Extend classification to Bacterial vs Viral Pneumonia.
+ Deploy the model as a web application where users can upload X-rays.
+ Monitored accuracy and loss curves during training.
 
 Evaluated on test data and visualized a confusion matrix.
 
