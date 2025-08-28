@@ -38,11 +38,16 @@ Normalized pixel values (0–255 → 0–1).
 ## 3. Applied data augmentation (rotation, zoom, horizontal flip) to reduce overfitting.
  Model Architecture
  
- Built a CNN with convolution, pooling, dropout, and dense layers.
+  Built a CNN with convolution, pooling, dropout, and dense layers.
  
  Trained using Adam optimizer and binary crossentropy loss.
  
- Evaluation
+## 4. Evaluation
+Monitored accuracy and loss curves during training.
+
+Evaluated on test data and visualized a confusion matrix.
+
+Tested model predictions on sample chest X-ray images.
 
 ## Results
 
