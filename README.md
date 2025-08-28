@@ -51,15 +51,20 @@ Achieved around 90% test accuracy.
 Model is able to correctly identify most pneumonia cases.
 
 Example:
+
   Normal X-ray → Predicted Normal (97% confidence)
+  
   Pneumonia X-ray → Predicted Pneumonia (89% confidence)
 
 ## Future Work
 
  Experiment with transfer learning models (VGG16, ResNet50) to improve accuracy.
- Extend classification to Bacterial vs Viral Pneumonia.
- Deploy the model as a web application where users can upload X-rays.
- Monitored accuracy and loss curves during training.
+ 
+Extend classification to Bacterial vs Viral Pneumonia.
+ 
+Deploy the model as a web application where users can upload X-rays.
+ 
+Monitored accuracy and loss curves during training.
 
 Evaluated on test data and visualized a confusion matrix.
 
