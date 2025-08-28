@@ -3,24 +3,32 @@ This project focuses on building a deep learning model that can automatically de
 
  ## Project Objectives
 
-. To classify chest X-ray images into Normal and Pneumonia cases.
-. To apply image preprocessing and understand how it improves model accuracy.
-. To implement a Convolutional Neural Network (CNN) from scratch.
-. To evaluate model performance and visualize the results.
+To classify chest X-ray images into Normal and Pneumonia cases.
+
+To apply image preprocessing and understand how it improves model accuracy.
+
+To implement a Convolutional Neural Network (CNN) from scratch.
+
+To evaluate model performance and visualize the results.
 
  ## Tools & Libraries
 
-. Programming Language: Python
-. Deep Learning Framework: TensorFlow, Keras
-. Data Handling: NumPy, Pandas
-. Visualization: Matplotlib, Seaborn
-. Image Processing: OpenCV
+Programming Language: Python
+
+Deep Learning Framework: TensorFlow, Keras
+
+ Data Handling: NumPy, Pandas
+
+ Visualization: Matplotlib, Seaborn
+
+ Image Processing: OpenCV
 
 ## Approach
 
 ## 1. Dataset
-. Used chest X-ray dataset containing images of Normal and Pneumonia cases.
-. Split data into training, validation, and test sets.
+Used chest X-ray dataset containing images of Normal and Pneumonia cases.
+
+Split data into training, validation, and test sets.
 
 ## 2. Preprocessing
 . Resized all images to the same dimension.
