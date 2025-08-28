@@ -59,7 +59,7 @@ Example:
 
   Normal X-ray → Predicted Normal (97% confidence)
   
-  Pneumonia X-ray → Predicted Pneumonia (89% confidence)
+  Pneumonia X-ray → Predicted Pneumonia (92% confidence)
 
 ## Future Work
 
